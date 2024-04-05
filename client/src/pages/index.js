@@ -1,5 +1,11 @@
-export { default as Home } from './Home';
+export { default as  Awards } from './Awards';
+export { default as  Bucks } from './Bucks';
+export { default as  Does } from './Does';
+export { default as  ForSale } from './ForSale';
+export { default as  Home } from './Home';
 export { default as Contact } from './Contact';
-export { default as Portfolio } from './Portfolio';
-export { default as About } from '../components/AboutMe';
-export { default as Resume } from './Resume';
+export { default as Kids } from './Kids';
+export { default as Footer } from '../components/Footer';
+export { default as Header } from '../components/Header';
+export { default as Sold } from './Sold';
+export { default as About } from './About';

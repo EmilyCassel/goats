@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+#root {
+  width: 100%;
+}
+
+body,html {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+}
+
+main {
+  flex: 1;
+}
+
+.mainBackground{
+  background-image: url("./images/goat15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+//header 
+.header {
+  display: flex;
+  flex-direction: column;
+  min-width: 0px;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  text-decoration: inherit;
+  justify-content: space-between;
+  background-color: rgb(173, 13, 13);
+}
+
+.upperHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.homePageLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+}
+
+
+.informationLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+}
+
+.goatLink {
+  color: black;
+}
+
+
+
+
+
+
+
+
+//footer 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 0px;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0;
+  text-decoration: inherit;
+  background-color: rgb(173, 13, 13);
+}
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+//button 
+a:hover {
+  color: #000000;
+}
+
+
+
+button:hover {
+  border-color: #d66695;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
