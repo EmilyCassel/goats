@@ -7,10 +7,10 @@ import {Awards, Bucks, Does, ForSale, Home, Kids, Sold, Contact, About}  from '.
 export default function App() {
     return (
         <>
-            <main className={`pageLayout ${location.pathname === '/'
+            {/* <main className={`pageLayout ${location.pathname === '/'
             ? 'mainBackground'
             : 'defaultBackground'}`
-            }></main>
+            }></main> */}
             <Header />
             <main>
                 <Routes>
