@@ -17,7 +17,10 @@
 
 #root {
   width: 100%;
+  height: 100%;
 }
+
+
 
 body,html {
   display: flex;
@@ -66,10 +69,24 @@ main {
 
 .homePageLinks {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   color: black;
+  justify-content: end;
 }
+
+.basicLinks{
+  color: black;
+  flex-direction: row-reverse;
+  justify-content: end;
+}
+
+.h1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+
 
 
 .informationLinks {
@@ -79,11 +96,16 @@ main {
   color: black;
 }
 
+
 .goatLink {
   color: black;
 }
 
 
+
+// .homeBody{
+//   background-image: url("./images/goat15.png");
+// }
 
 
 
