@@ -3,9 +3,8 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
-
-  color-scheme: light dark;
-
+  
+  background-color: burlywood;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,39 +14,48 @@
 
 
 
+
 #root {
   width: 100%;
-  height: 100%;
 }
 
 
+// .pageLayout {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   min-height: 100vh;
+//   padding: 0 2.8%;
+// }
 
-body,html {
-  display: flex;
-  flex-direction: column;
+body, html{
+  padding: 0;
+  width: 100%;
   height: 100vh;
   margin: 0;
   overflow-x: clip;
 }
 
-main {
-  flex: 1;
-}
 
-.mainBackground{
-  background-image: url("./images/goat15.png");
+// //home
+.homeBody{
+  height: 100vh;
+  z-index: 0;
+  background-image: url("./images/goat14.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0;
+  padding: 0;
+  // position: fixed;
 }
 
-.pageLayout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 100vh;
-  padding: 0 2.8%;
-}
+
+
+
+
+
+
 
 
 //header 
@@ -56,11 +64,14 @@ main {
   flex-direction: column;
   min-width: 0px;
   width: 100%;
-  padding: 20px;
+  padding: 0;
   margin: 0;
   text-decoration: inherit;
-  justify-content: space-between;
   background-color: rgb(173, 13, 13);
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
 }
 
 .upperHeader{
@@ -105,9 +116,7 @@ main {
 
 
 
-// .homeBody{
-//   background-image: url("./images/goat15.png");
-// }
+
 
 
 
@@ -117,21 +126,22 @@ main {
 //footer 
 .footer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   min-width: 0px;
   width: 100%;
-  padding: 10px 10px;
   margin: 0;
   text-decoration: inherit;
   background-color: rgb(173, 13, 13);
+  bottom: 0;
+  padding: 0;
+  z-index: 2;
 }
 
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
+
+
 
 
 
@@ -140,10 +150,8 @@ a:hover {
   color: #000000;
 }
 
-
-
 button:hover {
-  border-color: #d66695;
+  border-color: #b41a1a;
 }
 
 button:focus,
