@@ -7,5 +7,5 @@ export { default as Contact } from './Contact';
 export { default as Kids } from './Kids';
 export { default as Footer } from '../components/Footer';
 export { default as Header } from '../components/Header';
-export { default as Sold } from './Sold';
+export { default as LGD } from './LGD';
 export { default as About } from './About';

@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import {Header, Footer} from './components'
 
-import {Awards, Bucks, Does, ForSale, Home, Kids, Sold, Contact, About}  from './pages'
+import {Awards, Bucks, Does, ForSale, Home, Kids, LGD, Contact, About}  from './pages'
 
 export default function App() {
     return (
@@ -22,7 +22,7 @@ export default function App() {
                     <Route path="/Does" element={<Does />} />
                     <Route path="/ForSale" element={<ForSale />} />
                     <Route path="/Kids" element={<Kids />} />
-                    <Route path="/Sold" element={<Sold />} />
+                    <Route path="/LGD" element={<LGD />} />
                 </Routes>
             </main>
             <Footer />
