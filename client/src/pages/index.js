@@ -9,3 +9,6 @@ export { default as Footer } from '../components/Footer';
 export { default as Header } from '../components/Header';
 export { default as LGD } from './LGD';
 export { default as About } from './About';
+export { default as BreedingSchedule } from './BreedingSchedule';
+export { default as KiddingSchedule } from './KiddingSchedule';
+export { default as FAQ } from './FAQ';
