@@ -95,12 +95,6 @@ main{
   justify-content: end;
 }
 
-.h1{
-  display: flex;
-  justify-content: flex-start;
-}
-
-
 
 .informationLinks {
   display: flex;
@@ -115,7 +109,10 @@ main{
   color: black;
 }
 
-
+.welcome{
+  margin-top: 0;
+  padding-top: 0;
+}
 
 
 
