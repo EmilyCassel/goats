@@ -1,10 +1,7 @@
 const { model, Schema } = require("mongoose");
 const { hash, compare } = require("bcrypt");
 const mongoose = require('mongoose');
-
 // const { Schema } = mongoose.Schema;
-
-
 
 const goatSchema = new Schema({
   name: { type: String, required: true },
@@ -22,10 +19,6 @@ const goatSchema = new Schema({
   kidsOn: [{ type: Schema.Types.ObjectId, ref: 'Goat' }],
   kidsOff: [{ type: Schema.Types.ObjectId, ref: 'Goat' }]
 });
-
-
-
-
 
 const Goat = mongoose.model('Goat', goatSchema);
 

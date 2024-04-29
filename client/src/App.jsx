@@ -5,6 +5,9 @@ import {Header, Footer} from './components'
 import {Awards, Bucks, Does, ForSale, Home, Kids, LGD, Contact, About, KiddingSchedule, BreedingSchedule, FAQ, Goats}  from './pages'
 
 export default function App() {
+
+
+    
     return (
         <>
             {/* <main className={`pageLayout ${location.pathname === '/'
