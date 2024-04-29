@@ -25,15 +25,15 @@ app.get("/api/goats", async (req, res) => {
 
 const PORT = process.env.PORT || 3014;
 
-// connection.once('open', () => {
-//   app.listen(PORT, () => {
-//     console.log(`Server started on port ${PORT}`);
-//   });
-// });
+connection.once('open', () => {
+  app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
+  });
+});
 
-connection.on("open", () => {
-  app.listen(PORT, () => console.log("Server started on port", PORT));
-})
+// connection.on("open", () => {
+//   app.listen(PORT, () => console.log("Server started on port", PORT));
+// })
 
 
 
