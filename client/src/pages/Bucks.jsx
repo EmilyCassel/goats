@@ -1,8 +1,8 @@
 function Bucks(){
     return(
         <div>
-            <h1>CU@LilRedBarn Nigerian Dwarf Dairy Bucks</h1>
-            <div>
+            <h1 className="pageHeader">CU@LilRedBarn Nigerian Dwarf Dairy Bucks</h1>
+            {/* <div>
                 <h2>Frodo</h2>
                 <h3>Paternal Parent: J.R. Tolkein</h3>
                 <h3>Maternal Parent:</h3>
@@ -46,7 +46,7 @@ function Bucks(){
                 <h3>Maternal Grandparents:</h3>
                 <h4>Kids Living On CU@LilRedBarn Farm:</h4>
                 <h4>Kids Living Off CU@LilRedBarn Farm</h4>
-            </div>
+            </div> */}
         </div>
     )
 }

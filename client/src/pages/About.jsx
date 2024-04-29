@@ -1,7 +1,7 @@
 function About(){
     return(
         <div>
-            <h1>About CU@LilRedBarnGoats</h1>
+            <h1 className="pageHeader">About CU@LilRedBarnGoats</h1>
         </div>
     )
 }

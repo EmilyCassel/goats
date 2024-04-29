@@ -1,7 +1,7 @@
 function ForSale(){
     return(
         <div>
-            <h1>CU@LilRedBarn Goats for Sale Spring 2024</h1>
+            <h1 className="pageHeader">CU@LilRedBarn Goats for Sale Spring 2024</h1>
             <nav className="saleLinks">
                 <h3><a>Does</a></h3>
                 <h3><a>Bucks</a></h3>

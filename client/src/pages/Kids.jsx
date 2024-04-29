@@ -1,7 +1,7 @@
 function Kids(){
     return(
         <div>
-            <h1>CU@LilRedBarn Nigerian Dwarf Dairy Kids 2024</h1>
+            <h1 className="pageHeader">CU@LilRedBarn Nigerian Dwarf Dairy Kids 2024</h1>
             <div className="set1">
                 <h2 className="Parents">Charleston Chew & Bit-O-Honey</h2>
                 <h3 className="kids">Milky Way: Female</h3>

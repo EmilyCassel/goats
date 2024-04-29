@@ -1,12 +1,10 @@
 
-
 function Header() {
     return (
         <header className="header">
             <div className="upperHeader">
-                <h1 className="h1">CU@LilRedBarn Goats</h1>
-                <nav className="homePageLink"> 
-                    <h2><a className="homeLink" href="/">Home</a></h2>
+                <nav> 
+                    <h1><a className="homePageLink" href="/">CU@LilRedBarn Nigerian Dwarf Dairy Goat Farm</a></h1>
                 </nav>
             </div>
             <nav className="informationLinks">

@@ -49,10 +49,38 @@ body, html{
   padding: 0;
   // position: fixed;
 }
+.wordingHomeBody{
+  font-size: 300%;
+  padding-top: 25px;
+  color: #fbda21;
+  padding-left: 15px;
+}
 
 main{
   flex:1;
 }
+
+
+
+//pages
+.pageHeader{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 250%;
+}
+
+.meet{
+  display: flex;
+  justify-content: center;
+}
+
+.whatLGD{
+
+}
+
+
 
 
 
@@ -67,14 +95,13 @@ main{
   // flex-direction: column;
   // min-width: 0px;
   // width: 100%;
-  padding: 0;
   margin: 0;
   text-decoration: inherit;
   background-color: rgb(173, 13, 13);
   top: 0;
   left: 0;
   z-index: 2;
-  padding: 0 0 25px 0;
+  padding: 0 0 5px 0;
 }
 
 .upperHeader{
@@ -83,18 +110,25 @@ main{
   justify-content: space-evenly;
 }
 
-.homePageLinks {
+.homePageLink {
   display: flex;
   color: black;
-  justify-content: end;
+  font-size: 250%;
+  text-decoration: none;
+  padding-top: 5px;
+  margin: 0;
 }
 
-.basicLinks{
+.homePageLink a:hover {
+  text-decoration: underline;
+  color: #fbda21;
+}
+
+.goatLink{
   color: black;
   flex-direction: row-reverse;
   justify-content: end;
 }
-
 
 .informationLinks {
   display: flex;
@@ -102,16 +136,18 @@ main{
   justify-content: space-around;
   color: black;
   font-size: 20px;
-}
-
-
-.goatLink {
-  color: black;
+  padding: 0;
+  margin: 0;
 }
 
 .welcome{
   margin-top: 0;
   padding-top: 0;
+}
+
+.thankYou{
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -140,9 +176,9 @@ main{
 
 
 //button 
-a:hover {
-  color: #000000;
-}
+// a:hover {
+//   color: #000000;
+// }
 
 button:hover {
   border-color: #b41a1a;

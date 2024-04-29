@@ -3,9 +3,9 @@ function Home(){
         <div className="homeBody">
             <div className="wordingHomeBody">
                 <h2 className="welcome">Welcome to CU@LilRedBarnGoats</h2>
-                <p className="thankYou">Thank you for your interest in out Nigerian Dwarf Dairy Goat Herd.</p>
+                <p className="thankYou">Thank you for your interest in our Nigerian Dwarf Dairy Goat Herd</p>
             </div>
-        </div>
+        </div> 
     )
 }
 

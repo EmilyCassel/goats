@@ -1,7 +1,14 @@
 function Awards(){
     return(
         <div>
-            <h1>CU@LilRedBarnGoats Awards</h1>
+            <h1 className="pageHeader">CU@LilRedBarnGoats Awards</h1>
+            <h2></h2>
+            <h2></h2>
+            <h2></h2>
+
+
+
+
         </div>
     )
 }

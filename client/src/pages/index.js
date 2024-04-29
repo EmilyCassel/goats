@@ -12,3 +12,4 @@ export { default as About } from './About';
 export { default as BreedingSchedule } from './BreedingSchedule';
 export { default as KiddingSchedule } from './KiddingSchedule';
 export { default as FAQ } from './FAQ';
+export { default as Goats } from './Goats';

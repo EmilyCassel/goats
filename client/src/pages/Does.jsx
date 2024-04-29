@@ -1,8 +1,8 @@
 function Does() {
     return (
         <div>
-            <h1>CU@LilRedBarn Nigerian Dwarf Dairy Does</h1>
-            <div className="doe1">
+            <h1 className="pageHeader">CU@LilRedBarn Nigerian Dwarf Dairy Does</h1>
+            {/* <div className="doe1">
                 <h2>Bit-O-Honey</h2>
                 <h3>Paternal Parent: </h3>
                 <h3>Maternal Parent:</h3>
@@ -469,7 +469,7 @@ function Does() {
                 <h3>Maternal Grandparents:</h3>
                 <h4>Kids Living On CU@LilRedBarn Farm:</h4>
                 <h4>Kids Living Off CU@LilRedBarn Farm:</h4>
-            </div>
+            </div> */}
 
 
 
